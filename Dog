@@ -1,0 +1,16 @@
+class Dog:
+    """A simple dog class."""
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        return "Woof!"
+
+# Create a couple of dog instances
+fido = Dog("Fido", "Labrador")
+bella = Dog("Bella", "German Shepherd")
+
+# Make the dogs bark
+print(f"{fido.name} says: {fido.bark()}")
+print(f"{bella.name} says: {bella.bark()}")
